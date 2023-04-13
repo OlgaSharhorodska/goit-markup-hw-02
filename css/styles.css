@@ -22,7 +22,25 @@ body
 
 /* ===========GENERAL============= */
 
+ul {list-style: none;}
+a {text-decoration: none;}
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;}
 
+ul {
+ padding-left: 0;
+ padding-top: 0;
+ margin-bottom: 0;}
+
+button {cursor: pointer;}
+
+/* =============HEADER-LOGO==================== */
+
+.logo-accent
+ {
+  color: var(--accent-color);
+} 
 
 .logo 
 {
@@ -35,6 +53,8 @@ body
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    list-style: none;
+    text-decoration: none;
 }
 
 .nav-item:hover,
