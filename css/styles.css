@@ -44,7 +44,7 @@ button {cursor: pointer;}
 }
 .logo-accent
  {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 } 
 
 .logo 
@@ -57,8 +57,7 @@ button {cursor: pointer;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
-    
+    color: var(--accent-color);
 }
 
 .nav-item:hover,
@@ -202,13 +201,13 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--accent-color);
 list-style: none;;
 }
 
 .logo-footer-accent
 {
-    color: var(--accent-color);
+    color: #F4F4FD;
 }
 .footer {
     background-color: var(--secondary-background);
