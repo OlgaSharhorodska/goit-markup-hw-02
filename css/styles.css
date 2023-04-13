@@ -89,7 +89,7 @@ color: var(--secondary-text-color);
 }
 
 
-/* =================HERO=================== */
+/* =================HERO (section 1)=================== */
 .hero {
     background-color: var(--secondary-background);
 }
@@ -114,7 +114,7 @@ color: #FFFFFF;
 background-color: var(--accent-color);
 }
 
-/* ==============Principles=============== */
+/* ==============Principles (section 2)=============== */
 
 .principles-name 
 {    
@@ -140,13 +140,14 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
-list-style: none;
+list-style-type: none;
 }
 
 
-/* ===============OUR TEAM================ */
+/* ===============OUR TEAM (section 4)================ */
 
 .team-list
 {      
