@@ -106,6 +106,7 @@ color: var(--secondary-text-color);
 
 .hero-button
 {
+font-family: Roboto, sans-serif; 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -114,6 +115,11 @@ align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-buttom:focus {
+    background-color: #404BBF;
 }
 
 /* ==============Principles (section 2)=============== */
