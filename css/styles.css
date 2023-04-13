@@ -45,6 +45,7 @@ button {cursor: pointer;}
 .logo-accent
  {
   color: var(--primary-text-color);
+  text-transform: uppercase;
 } 
 
 .logo 
@@ -208,6 +209,7 @@ list-style: none;;
 .logo-footer-accent
 {
     color: #F4F4FD;
+    text-transform: uppercase;
 }
 .footer {
     background-color: var(--secondary-background);
