@@ -8,7 +8,6 @@
     --primary-text-color: #2E2F42;
     --accent-color: #4D5AE5;
     --secondary-text-color: #434455;
-
 }
 
 body
@@ -135,7 +134,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-text-color); 
-
 }
 
 .principles-descr
@@ -159,9 +157,10 @@ text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
-.gallery-list-item {
-list-style-type: none; }
-
+.gallery-list-item 
+{
+list-style-type: none; 
+}
 
 /* ===============OUR TEAM (section 4)================ */
 
@@ -178,12 +177,12 @@ color: var(--primary-text-color);
 
 .team-name
 {      
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;  
-    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;  
+color: var(--primary-text-color);
 }
 
 .team-descr
@@ -197,12 +196,12 @@ color: var(--secondary-text-color);
 
 .team
 {
-    background-color: #F4F4FD;
+background-color:#F4F4FD;
 }
 
 .team-card
 {
-    background-color: #ffffff;
+background-color: #ffffff;
 }
 
 /* ===============FOOTER============= */
