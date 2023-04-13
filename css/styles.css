@@ -145,8 +145,10 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
-list-style-type: none;
 }
+
+.gallery-list {
+list-style-type: none; }
 
 
 /* ===============OUR TEAM (section 4)================ */
