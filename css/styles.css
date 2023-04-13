@@ -117,8 +117,12 @@ color: #FFFFFF;
 background-color: var(--accent-color);
 }
 
-.hero-button:hover,
-.hero-buttom:focus {
+.hero-button:hover
+ {
+    background-color: #404BBF;
+}
+.hero-buttom:focus 
+{
     background-color: #404BBF;
 }
 
@@ -129,6 +133,8 @@ background-color: var(--accent-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color); 
 
 }
 
