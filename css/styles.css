@@ -1,0 +1,241 @@
+/* ===========VARIABLESS============= */
+:root 
+{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-background: #E5E5E5;
+    --secondary-background: #2E2F42;
+    --primary-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --secondary-text-color: #434455;
+
+}
+
+body
+{
+        font-family: var(--main-font);
+        font-size: 14px;
+        color: var(--primary-text-color);
+        background-color: var(--primary-background-color);
+        margin: 0;
+}
+
+/* ===========GENERAL============= */
+
+ul {list-style: none;}
+a {text-decoration: none;}
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;}
+
+ul {
+ padding-left: 0;
+ padding-top: 0;
+ margin-bottom: 0;}
+
+button {cursor: pointer;}
+
+span {
+  color: var(--accent-color)
+} 
+
+.logo 
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.nav-item:hover,
+.nav-item:focus 
+{
+    color: var(--accent-color)
+   
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.contact-item:hover,
+.contact-item:focus 
+{
+    color: var(--accent-color)
+   
+}
+.contact-item
+{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+
+/* =================HERO=================== */
+.hero {
+    background-color: var(--secondary-background);
+}
+.hero-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: var(--accent-color)
+}
+
+/* ==============Principles=============== */
+
+.principles-name 
+{    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.principles-descr
+{    
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+/* ============GALLERY================= */
+.gallery
+{      
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+
+/* ===============OUR TEAM================ */
+
+.team-list
+{      
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.team-name
+{      
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;  
+    color: var(--primary-text-color);
+}
+
+.team-descr
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+.team
+{
+    background: #F4F4FD;
+}
+
+.team-card
+{
+    background: #ffffff;
+}
+
+/* ===============FOOTER============= */
+
+.logo-footer {
+    color: #F4F4FD;
+}
+.footer {
+    background-color: var(--secondary-background);
+}
+.footer-descr
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+/* ================Portfolio============ */
+
+.portfolio-menu
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background-color: #F4F4FD; 
+}
+
+.portfolio-menu:focus,
+.portfolio-menu:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
+.portfolio-name 
+{  
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.portfolio-descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    
+}
