@@ -136,7 +136,7 @@ background-color: #404BBF;
 
 /* ==============Principles (section 2)=============== */
 
-.principles-name 
+.menu-name 
 {    
 font-weight: 500;
 font-size: 20px;
@@ -172,6 +172,7 @@ list-style-type: none;
 }
 
 /* ===============OUR TEAM (section 4)================ */
+.team {list-style-type: none;}
 
 .team-list
 {      
