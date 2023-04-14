@@ -21,27 +21,15 @@ margin: 0;
 
 /* ===========GENERAL============= */
 
-ul {list-style: none;}
-a {text-decoration: none;}
-h1, h2, h3, h4, p 
-{
-margin-top: 0;
-margin-bottom: 0;
-list-style-type: none;
-}
-
-ul 
-{
- padding-left: 0;
- padding-top: 0;
- margin-bottom: 0;
- list-style-type: none;
-}
-
 button {cursor: pointer;}
 
 /* =============HEADER-LOGO==================== */
-.logo-general 
+.logo-list
+{
+list-style: none;
+}
+
+.logo
 {
 list-style: none;
 text-decoration: none;
@@ -53,7 +41,7 @@ color: var(--primary-text-color);
 text-transform: uppercase;
 } 
 
-.logo 
+.logo-main
 {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -141,15 +129,16 @@ background-color: #404BBF;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+text-align: center;
 letter-spacing: 0.02em;
 color: var(--primary-text-color); 
 }
 
 .item-descr
 {    
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+text-align: center;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
