@@ -75,7 +75,7 @@ text-decoration: none;
 .contact-item:hover,
 .contact-item:focus 
 {
-color: var(--accent-color);   
+color: #404bbf ;   
 }
 
 .contact-item
