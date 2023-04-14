@@ -155,7 +155,7 @@ text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
-.gallery-list
+.gallery-list-item
 {
 list-style-type: none; 
 }
