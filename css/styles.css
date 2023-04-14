@@ -52,12 +52,9 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
-list-style: none;
 text-decoration: none
 }
 
@@ -123,7 +120,6 @@ font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
@@ -151,7 +147,6 @@ list-style-type:  none;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--primary-text-color); 
 }
@@ -160,7 +155,6 @@ color: var(--primary-text-color);
 {    
 font-size: 16px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
@@ -214,7 +208,6 @@ font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -235,7 +228,6 @@ text-transform: uppercase;
 
 .footer-descr
 {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -247,11 +239,9 @@ color: #F4F4FD;
 .portfolio-menu
 {
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
@@ -269,7 +259,6 @@ color: #FFFFFF;
 .portfolio-name 
 {  
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;   
@@ -280,8 +269,6 @@ color: var(--primary-text-color);
 
 .portfolio-descr 
 {
-font-family: 'Roboto', sans-serif;
-font-style: normal; 
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
