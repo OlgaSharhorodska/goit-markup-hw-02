@@ -259,3 +259,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);    
 }
+.portfolio-descr
+{
+list-style: none;
+}
+.portfolio-item
+{
+text-decoration: none 
+}
