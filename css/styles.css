@@ -120,9 +120,9 @@ background-color: #404BBF;
 
 /* ==============Principles (section 2)=============== */
 
-.principles
+.principles-list
 {
-list-style-type: none;
+list-style: none;
 }
 .menu-name
 {    
@@ -155,7 +155,7 @@ text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
-.gallery-list-item 
+.gallery-list
 {
 list-style-type: none; 
 }
