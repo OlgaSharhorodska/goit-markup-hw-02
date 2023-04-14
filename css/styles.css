@@ -23,6 +23,11 @@ margin: 0;
 
 button {cursor: pointer;}
 
+.link 
+{
+text-decoration-style: none;
+}
+
 .list
 {
     list-style-type: none;
