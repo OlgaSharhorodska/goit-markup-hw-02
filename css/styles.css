@@ -23,6 +23,11 @@ margin: 0;
 
 button {cursor: pointer;}
 
+.list
+{
+    list-style-type: none;
+    font-style: normal;
+}
 
 /* =============HEADER-LOGO==================== */
 
