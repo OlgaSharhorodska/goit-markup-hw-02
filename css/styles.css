@@ -25,12 +25,6 @@ button {cursor: pointer;}
 
 /* =============HEADER-LOGO==================== */
 
-.logo
-{
-list-style: none;
-text-decoration: none;
-}
-
 .logo-accent
 {
 color: var(--primary-text-color);
@@ -49,6 +43,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
 list-style: none;
+text-decoration: none
 }
 
 .nav-item:hover,
