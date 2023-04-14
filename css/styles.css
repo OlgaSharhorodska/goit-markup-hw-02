@@ -23,6 +23,16 @@ margin: 0;
 
 button {cursor: pointer;}
 
+.list 
+{
+list-style: none;
+}
+
+.link 
+{
+list-style: none;
+}
+
 /* =============HEADER-LOGO==================== */
 
 .logo-accent
