@@ -53,16 +53,23 @@ color: var(--accent-color);
 .nav-item:hover,
 .nav-item:focus 
 {
-color: var(--accent-color);   
+color: #404bbf;   
+}
+
+.contact
+{
+font-style: normal;
+list-style: none;
 }
 
 .nav-item 
 {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.33;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+text-decoration: none;
 }
 
 .contact-item:hover,
