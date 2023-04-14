@@ -174,15 +174,14 @@ text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
-
 .team-card
 {
-background-color:#F4F4FD;
+background-color: #FFFFFF;
 }
 
 .list
 {
-background-color: #FFFFFF;
+background-color: #F4F4FD;
 }
 
 /* ===============FOOTER============= */
