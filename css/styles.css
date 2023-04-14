@@ -48,6 +48,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
+list-style: none;
 }
 
 .nav-item:hover,
@@ -70,6 +71,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 text-decoration: none;
+list-style: none;
 }
 
 .contact-item:hover,
@@ -86,6 +88,7 @@ letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 font-style: normal;
 text-decoration: none;
+list-style: none;
 }
 
 /* =================HERO (section 1)=================== */
