@@ -199,8 +199,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
 text-decoration: none;
-padding: 0;
-border: none;
 }
 
 .logo-footer-accent
